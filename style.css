@@ -1,0 +1,30 @@
+body {
+	font-family: Helvetica, Arial;
+}
+header,
+footer {
+	background-color: #DEDDDB;
+	padding: 10px;
+}
+
+main {
+	background-image: url("bg8.jpg");
+}
+
+nav a  {
+	color: #708091;
+	padding:0px;
+}
+nav li  {
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul {
+	padding:0px;
+}
+h2 ~ p {
+	font-size: 16px;
+}
+ul.dropdown {
+	display: none;
+}
